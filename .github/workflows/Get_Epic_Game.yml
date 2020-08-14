@@ -26,7 +26,7 @@ jobs:
         run: |
           cd workdir
           npm install
-          node claimer '${{ 2432961866@qq.com }}' '${{ yurimiku233 }}' 0 '${{ 873070 }}' > games.info
+          node claimer '${{  }}' '${{  }}' 0 '${{ }}' > games.info
 
       - name: Edit Games.info
         if: always()
